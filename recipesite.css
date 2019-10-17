@@ -1,0 +1,386 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #666;
+}
+
+#all {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	padding: 0px 0px 0px 0px;
+}
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav {
+
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 2px dashed #57C8CC;
+	border-top: 2px dashed #57C8CC;
+	padding-left: 10px;
+}
+
+
+
+#nav li{
+	font-size: 20px;
+	float: left;
+	margin: -10px 80px 5px 0px;
+}
+
+#nav ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#recent {
+	width: 620px;
+	float: left;
+	margin: 20px 10px 0px 0px;
+}
+
+#today {
+	width: 620px;
+	margin: 0px 0px 30px 0px;
+}
+
+#today img {
+	width: 100%;
+	height: auto;
+}
+
+#recipe {
+	width: 620px;
+	float: left;
+	margin: 20px 10px 40px 0px;
+}
+
+#recipe img {
+	width: 100%;
+	height: auto;
+}
+
+#ingredients {
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	padding: 0px 5px 0px 5px;
+	margin: 0px 10px 0px 0px;
+}
+
+#directions {
+	width: 390px;
+	float: left;
+	font-size: 14px;
+	padding: 0px 5px 0px 5px;
+}
+
+#more1 {
+	width: 305px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+#more2 {
+	width: 305px;
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+#rec {
+	margin: 0px 0px 20px 0px;
+	width: 305px;
+}
+
+#rec img {
+	width: 100%;
+}
+
+#popular {
+	width: 290px;
+	float: left;
+	margin: 20px 20px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+#popularrec {
+	width: 290px;
+	float: left;
+	margin: 20px 20px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+#pop {
+	width: 270px;
+	height: 100px;
+	margin: 0px 0px 10px 0px;
+}
+
+#pop img {
+	margin-right: 5px;
+}
+
+#footer {
+	border-top: 2px dashed #57C8CC;
+}
+
+#foot {
+	width: 210px;
+	float: left;
+	margin-top: -10px;
+}
+
+#foot li {
+	line-height: 10px;
+}
+
+#footer ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.clear {
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+	list-style-position: inside;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-size: 90px;
+	text-align: center;
+	font-weight: 100;
+	color: #FF95AD;
+	line-height: 5px;
+}
+
+h2 {
+	color: #57C8CC;
+	margin: 5px 0px 5px 0px;
+}
+
+h3 {
+	font-size: 16px;
+	color: #FF95AD;
+}
+
+h4 {
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+h5 {
+	font-size: 12px;
+	margin-bottom: -10px;
+}
+
+h6 {
+	margin: 5px 0px 10px 0px;
+	font-size: 22px;
+	border-bottom: 2px dashed #57C8CC;
+	padding-bottom: 3px;
+	color: #FF95AD;
+}
+
+
+a {
+	color: #57C8CC;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #666;
+}
+
+#nav a {
+	color: #FF95AD;
+	text-decoration: none;
+}
+
+#nav a:hover{
+	color: #666;
+}
+
+#footer a {
+	color: #666;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #57C8CC;
+}
+
+.clearfix:after { 
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden; 
+}
+	
+/*Media Queries for responsiveness*/
+
+/*Tablet*/
+@media screen and (max-width: 960px) {
+#all {
+	width: 700px;
+}
+
+#nav li{
+	font-size: 18px;
+}
+
+#today {
+	width: 700px;
+}
+
+#main {
+	position: relative;
+}
+
+#more1 {
+	width: 215px;
+	margin-right: 10px;
+}
+
+#more2 {
+	width: 215px;
+}
+
+#rec {
+	width: 215px;
+}
+
+#recipe {
+	width: 700px;
+}
+
+#popular {
+	position: absolute;
+	top: 575px;
+	left: 450px;
+	width: 215px;
+}
+
+#popularrec {
+	display: none;
+}
+
+#pop {
+	width: 215px;
+}
+
+#foot {
+	width: 160px;
+}
+}
+
+/*Phone*/
+@media screen and (max-width: 400px) {
+#all {
+	width: 300px;
+}
+
+#nav {
+	padding: 0px;
+	margin: 0px 0px -10px 0px;
+}
+
+#nav li{
+	font-size: 18px;
+	height: 30px;
+	width: 300px;
+	text-align: center;
+	margin: -5px 0px 2px 0px;
+}
+
+#today {
+	width: 300px;
+	border-bottom: 2px dashed #57C8CC;
+	margin-bottom: 5px;
+}
+
+#more1 {
+	width: 300px;
+	float: none;
+	clear: both;
+}
+
+#more2 {
+	width: 300px;
+	float: none;
+	clear: both;
+	margin: 0px;
+}
+
+#rec {
+	width: 300px;
+}
+
+#recipe {
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+#ingredients {
+	width: 300px;
+}
+
+#directions {
+	width: 300px;
+}
+
+#popular {
+	float: none;
+	clear: both;
+	width: 300px;
+	margin: 0px;
+	position: static;
+}
+
+#popularred {
+	float: none;
+	clear: both;
+	width: 300px;
+	margin: 0px;
+	position: static;
+}
+
+#pop {
+	width: 300px;
+}
+
+#foot {
+	width: 150px;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 45px;
+	margin: 10px 0px 10px 0px;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 0px 0px 5px 0px;
+}
+}
